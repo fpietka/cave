@@ -1,3 +1,7 @@
+.. image:: https://landscape.io/github/fpietka/cave/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/fpietka/cave/master
+   :alt: Code Health
+
 ==============
 Cave generator
 ==============
