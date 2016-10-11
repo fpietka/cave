@@ -70,11 +70,11 @@ def doSimulationStep(oldMap):
 
 def generateMap():
     # Create a new map
-    cellmap = [[False for x in range(width)] for y in range(height)]
+    cellmap = [[False for _ in range(width)] for _ in range(height)]
     # Set up the map with random values
     cellmap = initialiseMap(cellmap)
     # And now run the simulation for a set number of steps
-    for i in range(0, numberOfSteps):
+    for _ in range(0, numberOfSteps):
         cellmap = doSimulationStep(cellmap)
     return cellmap
 
